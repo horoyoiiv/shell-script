@@ -4,14 +4,14 @@ shell we dance?
 ## 순서  
 
 [read from command line](#read-from-command-line)
+[Arithmetic operation](#Arithmetic-operation)  
 
-
-## 1. read from command line  
+## read from command line  
 ```
 read -p "Enter [Y/N] : " answer  
 ```
 
-# 2. Arithmetic operation  
+## Arithmetic operation  
 
 이것을 사용 : **$((EXPR))**
 
