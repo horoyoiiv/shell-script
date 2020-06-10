@@ -3,10 +3,20 @@ shell we dance?
  
 ## 순서  
 
-[read from command line](#read-from-command-line)
-[Arithmetic operation](#Arithmetic-operation)  
+### [read from command line](#read-from-command-line)  
+* read / echo  
+
+### [Arithmetic operation](#Arithmetic-operation)  
+* $((EXPR))  
+
+## Iteration  
+### [for loop with seq](for-loop-with-seq)  
+* seq  
+
+
 
 ## read from command line  
+
 ```
 read -p "Enter [Y/N] : " answer  
 ```
@@ -31,7 +41,7 @@ echo $result
 
 # 3. Iteration  
 
-## 3.1. for loop with seq  
+## for loop with seq  
 * **seq** : 순서대로 숫자를 출력.  
 
 ```sh
